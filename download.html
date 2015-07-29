@@ -5,17 +5,25 @@
     <head>
         <title>progress bar</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     
     <body>
     
         <div class="box"> 
         <h1>Please wait while download is processing</h1>
-        
-        <div id="progress-bar"></div>
+          
+               <progress id="pro" max="100" value="70">
+            <div id="progress-bar">
+              <span style="width: 70">Progress: 70%</span>
+            </div>   
+        </progress>
+            
         <div id="inner-pb"></div>
         <a href="#" title="cancel">Cancel</a>
         </div>
+        
+       
         
     </body>
 
