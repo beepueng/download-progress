@@ -79,6 +79,7 @@ body{
   position:relative;
   padding:7px 40px;
   width:130px;
+  height: auto;
   margin:0 auto;
   margin-bottom:15px;
     margin-top: 20px;
@@ -118,9 +119,11 @@ body{
 .progress-bar {
     
   width:95%;
+  height: auto;
   margin:0 auto;
-  margin-bottom:15px;
-  height:28px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height:30px;
   border:1px solid rgba(0,0,0,0.8);
   background:#232323;
   border-radius:1em;
@@ -128,8 +131,10 @@ body{
 }
 
 .progress-bar > span {
+    
   display: block;
   height: 100%;
+  width: auto;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border-top-left-radius: 8px;
@@ -147,12 +152,3 @@ body{
   overflow: hidden;
 }
 
-@-moz-keyframes roll {
-	0% { width:0; }
-  100% { width:95%; }
-}
-
-@-webkit-keyframes roll {
-	0% { width:0; }
-  100% { width:95%; }
-}
