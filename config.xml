@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap ="http://phonegap.com/ns/1.0"
+        id = "com.phonegap.download-progress"
+        version = "1.0.0">
+
+    <name>download-progress</name>
+    
+    <description>
+        test for download progress bar.
+    </description>
+    
+    <author href = "https://build.phonegap.com" email="bebear1994@gmail.com">
+        Beepueng
+    </author>
+
+    <icon src="image/icon.png" />
+
+</widget>
